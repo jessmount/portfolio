@@ -1,0 +1,117 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /* we assume that the default font size of the browser is 16px. Then divide the default by the font that we want o 10 / 16. */ }
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+  border: 2rem solid #d4a0a7; }
+
+body {
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7; }
+
+.header__intro {
+  margin-top: 10rem; }
+  .header__intro-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1; }
+  .header__intro-text--1, .header__intro-text--2 {
+    font-size: 3rem; }
+
+.header__divider--light {
+  border-top: 1px solid #75dbcd;
+  margin-top: 4rem; }
+
+.header__divider--dark {
+  border-top: 3px solid grey;
+  position: relative;
+  margin-top: 1rem; }
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .navigation__logo-img {
+    height: 4rem; }
+  .navigation__nav {
+    width: 35%; }
+  .navigation__menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem; }
+  .navigation__menu-item {
+    transition: all .2s;
+    padding: 1rem;
+    border: 4px solid transparent; }
+    .navigation__menu-item:hover {
+      border: 4px solid #75dbcd;
+      transform: translateY(3px); }
+
+.footer {
+  background-color: #d4a0a7;
+  padding: 4rem 6rem;
+  padding-bottom: 0;
+  margin: 6rem -5rem -3rem -6rem; }
+  .footer__contact {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3rem; }
+  .footer__social {
+    margin-right: auto; }
+    .footer__social-icon {
+      height: 4rem;
+      width: 4rem;
+      fill: #75dbcd;
+      background-size: 100% auto;
+      transition: all .2s; }
+      .footer__social-icon:not(:last-child) {
+        margin-right: 2rem; }
+      .footer__social-icon:hover {
+        transform: rotate(-40deg) translateY(-5px); }
+  .footer__btn {
+    border: 3px solid #75dbcd;
+    background-color: #d4a0a7;
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 1rem 2rem;
+    transition: all .2s; }
+    .footer__btn:not(:last-of-type) {
+      margin-right: 2rem; }
+    .footer__btn:hover {
+      background-color: #75dbcd;
+      transform: translateY(3px); }
+  .footer__copyright {
+    font-size: 1.2rem; }
+
+.about {
+  height: 50vh;
+  margin-top: 6rem; }
+  .about__blurb-container {
+    width: 60%;
+    padding: 4rem;
+    border: 3px solid #4a4063;
+    transform: skewX(-20deg);
+    margin: 0 auto; }
+  .about__blurb {
+    transform: skewX(20deg);
+    font-size: 1.6rem; }
+  .about .heading--2 {
+    font-size: 3rem;
+    color: #999; }
+
+.skills {
+  height: 50vh; }

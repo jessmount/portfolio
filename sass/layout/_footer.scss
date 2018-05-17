@@ -1,0 +1,67 @@
+.footer{
+    background-color: $color-primary;
+    padding: 4rem 6rem;
+    padding-bottom: 0;
+    margin: 6rem -5rem -3rem -6rem;
+   
+
+    &__contact{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 3rem;
+       
+    }
+
+
+    &__social{
+
+        margin-right: auto;
+
+        &-icon{
+            height: 4rem;
+            width: 4rem;
+            fill: $color-secondary;
+            background-size: 100% auto;
+            transition: all .2s;
+         
+
+            &:not(:last-child){
+                margin-right: 2rem;
+            }
+
+            &:hover{
+                transform: rotate(-40deg) translateY(-5px);
+            }
+        }
+
+    
+    }
+
+    &__btn{
+        border: 3px solid $color-secondary;
+        background-color: $color-primary;
+        color: #fff;
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 1rem 2rem;
+        transition: all .2s;
+
+
+        &:not(:last-of-type){
+            margin-right: 2rem;
+        }
+
+        &:hover{
+            background-color: $color-secondary;
+            transform: translateY(3px);
+        }
+    }
+
+    &__copyright{
+        font-size: 1.2rem;
+        
+    }
+}

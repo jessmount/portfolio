@@ -1,0 +1,30 @@
+.about{
+
+    height: 50vh;
+    margin-top: 6rem;
+    
+
+
+    &__blurb-container{
+       width: 60%;
+       padding: 4rem;
+       border: 3px solid $color-tertiary;
+       transform: skewX(-20deg);
+       margin: 0 auto;
+    }
+
+    &__blurb{
+        transform: skewX(20deg);
+        font-size: 1.6rem;
+    }
+
+    .heading--2{
+        font-size: 3rem;
+        color: #999;
+    }
+
+}
+
+.skills{
+    height: 50vh;
+}

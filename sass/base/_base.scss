@@ -1,0 +1,19 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%; /* we assume that the default font size of the browser is 16px. Then divide the default by the font that we want o 10 / 16. */
+}
+
+
+body{
+    box-sizing: border-box;
+    padding: 3rem;
+    border: 2rem solid $color-primary;
+  
+    
+}
+

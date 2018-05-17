@@ -1,0 +1,40 @@
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo{
+       
+    }
+
+    &__logo-img{
+        height: 4rem;
+    }
+
+    &__nav{
+        width: 35%;
+    }
+
+    &__menu{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4rem;
+
+        
+    }
+
+    &__menu-item{
+        transition: all .2s;
+        padding: 1rem;
+        border: 4px solid transparent;
+      
+        
+
+        &:hover{
+            border: 4px solid $color-secondary;
+            transform: translateY(3px);
+        }
+        
+    }
+}

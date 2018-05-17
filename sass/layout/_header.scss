@@ -1,0 +1,30 @@
+.header{
+
+    &__intro{
+        margin-top: 10rem;
+
+        &-title{
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            line-height: 1;
+        }
+
+        &-text--1, 
+        &-text--2{
+            font-size: 3rem;
+        }
+    }
+
+    &__divider--light{
+        border-top: 1px solid $color-secondary;
+        margin-top: 4rem;
+    }
+
+    &__divider--dark{
+        border-top: 3px solid grey;
+        position: relative;
+        margin-top: 1rem;
+
+    }
+
+}
