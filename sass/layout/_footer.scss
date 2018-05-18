@@ -39,24 +39,11 @@
     }
 
     &__btn{
-        border: 3px solid $color-secondary;
-        background-color: $color-primary;
-        color: #fff;
-        font-size: 1.6rem;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        padding: 1rem 2rem;
-        transition: all .2s;
 
-
+        @include button ($color-secondary, #fff, $color-primary);
+     
         &:not(:last-of-type){
             margin-right: 2rem;
-        }
-
-        &:hover{
-            background-color: $color-secondary;
-            transform: translateY(3px);
         }
     }
 
